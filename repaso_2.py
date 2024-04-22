@@ -1,0 +1,8 @@
+
+
+
+for i in range(1,51):
+    if(i%2 == 0):
+        print(str(i) +" Es par")
+    else:
+        print(str(i) + " Es impar")

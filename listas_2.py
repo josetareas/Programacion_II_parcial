@@ -21,6 +21,8 @@ while not salir:
             print(f"{i + 1}. {lista_compras[i]}")
     elif(opt == '2'):
         nuevo = input("Ingrese el nombre del producto: ")
-        print(nuevo)
+        lista_compras.append(nuevo)
+ 
+        print(f"El elemento '{nuevo}' fue agregado a la lista")
     else:
         print("Opcion no valida!")
